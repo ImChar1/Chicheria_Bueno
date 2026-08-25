@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="M1vpwa5qCdIZBCWhBTLK">
+    <mxGraphModel dx="708" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rj7RW7GFHp246gQJtuDR-9" edge="1" parent="1" source="rj7RW7GFHp246gQJtuDR-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="rj7RW7GFHp246gQJtuDR-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Controller" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-8" edge="1" parent="1" source="rj7RW7GFHp246gQJtuDR-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="rj7RW7GFHp246gQJtuDR-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-11" edge="1" parent="1" source="rj7RW7GFHp246gQJtuDR-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="rj7RW7GFHp246gQJtuDR-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-13" edge="1" parent="1" source="rj7RW7GFHp246gQJtuDR-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="rj7RW7GFHp246gQJtuDR-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Service&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-6" edge="1" parent="1" source="rj7RW7GFHp246gQJtuDR-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="rj7RW7GFHp246gQJtuDR-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="[ HTTP Request ]" vertex="1">
+          <mxGeometry height="30" width="160" x="90" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="(Adaptador de Entrada)" vertex="1">
+          <mxGeometry height="30" width="180" x="234" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-5" edge="1" parent="1" source="rj7RW7GFHp246gQJtuDR-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="rj7RW7GFHp246gQJtuDR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="State Pattern: Control de maduración del Vino." vertex="1">
+          <mxGeometry height="30" width="280" x="320" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Strategy Pattern: Calcula Impuestos IVA + ILA" vertex="1">
+          <mxGeometry height="30" width="280" x="320" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Repository" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-16" edge="1" parent="1" source="rj7RW7GFHp246gQJtuDR-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="rj7RW7GFHp246gQJtuDR-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="(Adaptador de Salida)" vertex="1">
+          <mxGeometry height="30" width="180" x="234" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="rj7RW7GFHp246gQJtuDR-15" parent="1" style="whiteSpace=wrap;html=1;" value="MariaDB / Redis" vertex="1">
+          <mxGeometry height="60" width="120" x="564" y="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
