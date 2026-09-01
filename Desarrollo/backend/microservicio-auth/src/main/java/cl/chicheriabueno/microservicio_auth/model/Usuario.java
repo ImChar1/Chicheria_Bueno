@@ -21,6 +21,7 @@ public class Usuario {
     @Id
     private Long id;
     private String rut;
+    private String nombreUsuario;
     private String apellidoPaterno;
     private String apellidoMaterno;
     private String correo;

@@ -1,11 +1,12 @@
-CREATE TABLE IF NOT EXIST roles (
+CREATE TABLE IF NOT EXISTS roles (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     nombreRol VARCHAR(30) NOT NULL UNIQUE
 );
 
-CREATE TABLE IF NOT EXIST usuarios (
+CREATE TABLE IF NOT EXISTS usuarios (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     rut VARCHAR(12) NOT NULL UNIQUE,
+    nombreUsuario VARCHAR(50) NOT NULL,
     apellidoPaterno VARCHAR(50) NOT NULL,
     apellidoMaterno VARCHAR(50) NOT NULL,
     correo VARCHAR(100) NOT NULL UNIQUE,
@@ -16,7 +17,7 @@ CREATE TABLE IF NOT EXIST usuarios (
     rolId BIGINT NOT NULL,
     activo BOOLEAN NOT NULL DEFAULT TRUE,
     fechaCreacion DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (rol_id) REFERENCES roles(id)
+    FOREIGN KEY (rolId) REFERENCES roles(id)
 );
 
 --Inyeccion de roles para el negocio
